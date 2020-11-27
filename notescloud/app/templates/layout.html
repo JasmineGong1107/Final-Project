@@ -1,3 +1,7 @@
+<!-- https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+<!-- Add CSS and JavaScript to be able to use Bootstrap for nice design -->
+<!-- Format the foundation template -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- Link the stylesheet to the main.css file -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='main.css')}}">
 
     {% if title %}
@@ -20,8 +24,10 @@
 </head>
 
 <body>
+    <!-- Formatting the header -->
     <header class="site-header">
         <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+            <!-- Bootsrap class Container for organized pattern and spacing -->
             <div class="container">
                 <a class="navbar-brand mr-4" href="/">Babson Notes Cloud</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
@@ -63,6 +69,7 @@
                 {% endwith %}
                 {% block content %}{% endblock %}
             </div>
+            <!-- Create the side: shortcut section with links -->
             <div class="col-md-4">
                 <div class="content-section">
                     <h3>Need Help?</h3>

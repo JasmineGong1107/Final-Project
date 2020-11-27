@@ -1,3 +1,4 @@
+<!-- import layout.html desgin -->
 {% extends "layout.html" %}
 {% block content %}
 <div class="content-section">
@@ -10,6 +11,7 @@
                 {% if form.password.errors %}
                 {{ form.password(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
+                    <!-- loop over erros and tell user why it does not work -->
                     {% for error in form.password.errors %}
                     <span>{{ error }}</span>
                     {% endfor %}

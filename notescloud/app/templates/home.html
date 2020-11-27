@@ -1,6 +1,8 @@
+<!-- import layout.html desgin -->
 {% extends "layout.html" %}
 {%  block content %}
 {% for post in posts.items %}
+<!-- main section design with profile pic, author name, note titles etc. -->
 <article class="media content-section">
     <img class="rounded-circle article-img"
         src="{{ url_for('static', filename='profile_pics/' + post.author.image_file) }}">
@@ -15,6 +17,7 @@
     </div>
 </article>
 {% endfor %}
+<!-- pagination -->
 {% for page_num in posts.iter_pages(left_edge=1,right_edge=3, left_current=1, right_current=2) %}
 {% if page_num %}
 {% if posts.page==page_num %}

@@ -1,3 +1,4 @@
+<!-- import layout.html desgin -->
 {% extends "layout.html" %}
 {% block content %}
 <div class="content-section">
@@ -7,6 +8,7 @@
             <legend class="border-bottom mb-4">Reset Password</legend>
             <div class="form-group">
                 {{ form.email.label(class="form-control-label") }}
+                <!-- tell users what went wrong -->
                 {% if form.email.errors %}
                 {{ form.email(class="form-control form-control-lg is-invalid") }}
                 <div class="invalid-feedback">
