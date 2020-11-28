@@ -5,15 +5,18 @@ from flask import url_for, current_app
 from flask_mail import Message
 from app import mail
 
+"""save profile pic"""
+
 
 def save_picture(form_picture):
     random_hex = secrets.token_hex(8)
+    """split and save the file name"""
     _, f_ext = os.path.splitext(form_picture.filename)
     picture_fn = random_hex + f_ext
     picture_path = os.path.join(
         current_app.root_path, "static/profile_pics", picture_fn
     )
-
+    """format the pic"""
     output_size = (125, 125)
     i = Image.open(form_picture)
     i.thumbnail(output_size)
@@ -22,8 +25,12 @@ def save_picture(form_picture):
     return picture_fn
 
 
+"""send email to reset password"""
+
+
 def send_reset_email(user):
     token = user.get_reset_token()
+    """email info will be displayed"""
     msg = Message(
         "Babson Notes Cloud Password Reset",
         sender="noreply@demo.com",

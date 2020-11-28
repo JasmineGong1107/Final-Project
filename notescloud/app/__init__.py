@@ -14,9 +14,11 @@ bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = "login"
 login_manager.login_message_category = "info"
-app.config["MAIL_SERVER"] = "smtp.googlemail.com"
+# Mail Handler Code Reference: https://gist.github.com/takwas/f2bc4457de2044049c4561bbbf3f8a3d
+app.config["MAIL_SERVER"] = "smtp.mail.yahoo.com"
 app.config["MAIL_PORT"] = 587
 app.config["MAIL_USE_TLS"] = True
+app.config["MAIL_USE_SSL"] = False
 app.config["MAIL_USERNAME"] = os.environ.get("EMAIL_USER")
 app.config["MAIL_PASSWORD"] = os.environ.get("EMAIL_PASS")
 mail = Mail(app)
