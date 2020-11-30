@@ -49,6 +49,9 @@ She spend the previous four days creating the web application from the scrath(st
 
 
 ## Additional Course Content
-Flask more in depth
-Flask-SQLAlchemy for Database Construction
-Heroku Deployment 
+1)Flask more in depth
+2)Flask-SQLAlchemy for Database Construction
+3)Heroku Deployment 
+
+## References
+https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g
