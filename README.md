@@ -2,7 +2,7 @@
 
 ## Babson Notes Cloud User Instruction 
 ### Before running...
-To successfully run the code successfully, one should install the following libraries and extension in their command prompt:
+To run codes successfully, one should install the following libraries and extension in their command prompt:
 1) flask
 2) wt-forms
 3) flask-sqlalchemy
