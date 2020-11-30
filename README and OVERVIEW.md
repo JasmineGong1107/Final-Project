@@ -35,4 +35,5 @@ Attempted deployment but failed: https://babson-notes-cloud.herokuapp.com/
 ![6](https://user-images.githubusercontent.com/70243135/100567269-0e229d00-3303-11eb-8f20-485acb98cc02.JPG)
 
 8)Check out the "About" page for why I created this project : )
-![8](https://user-images.githubusercontent.com/70243135/100567323-298da800-3303-11eb-924d-43c20a46da56.JPG)
+![e](https://user-images.githubusercontent.com/70243135/100567940-b422d700-3304-11eb-8de7-6471500f8183.JPG)
+
