@@ -37,3 +37,4 @@ Attempted deployment but failed: https://babson-notes-cloud.herokuapp.com/
 8)Check out the "About" page for why I created this project : )
 ![e](https://user-images.githubusercontent.com/70243135/100567940-b422d700-3304-11eb-8de7-6471500f8183.JPG)
 
+*reference of the project from Corey Schafer's Youtube Tutorial
