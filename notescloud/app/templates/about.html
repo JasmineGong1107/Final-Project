@@ -4,6 +4,18 @@
 {% extends "layout.html" %}
 {%  block content %}
 <h1>About Page</h1>
+<p>This web app is designed by a Babson student who wishes help other Babson students succeed in pursuing their degrees
+    efficiently.
+</p>
+<p>The developer thinks it is time-consuming and costly while looking for study materials from platforms such as course
+    hero.</p>
+<p>She believes the most efficient way is to check notes and to learn expierence from students who took this class from
+    the same professors.</p>
+<p>CAUTIOUS: This website abids Babson policies. Students should follow Babson honor code and avoid
+    uploading inappropriate content that might violates copyright and intellectual properties of Babson College.</p>
+
+
+
 {% for post in posts %}
 <h1>{{post.title}}</h1>
 <p>By {{post.author}} on {{post.date_posted}}</p>
@@ -26,9 +38,8 @@
 </head>
 
 <body>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <p>This web app is designed by a Babson student who wishes help other Babson students.</p>
+
+
 
 </body>
 
