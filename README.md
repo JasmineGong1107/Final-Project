@@ -9,7 +9,7 @@ To run codes successfully, one should install the following libraries and extens
 6) pillow
 7) flask-mail
 
-Attempted deployment but failed: https://babson-notes-cloud.herokuapp.com/
+https://babson-notescloud.herokuapp.com/
 
 ## What you will expect to see...
 
