@@ -1,5 +1,5 @@
-# Final-Project: Babson Notes Cloud User Instruction 
-## Before running, please install...
+# Final-Project: Babson Notes Cloud 
+## User Instruction: before running, please install...
 To run codes successfully, one should install the following libraries and extension in their command prompt:
 1) flask
 2) wt-forms
