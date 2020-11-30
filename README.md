@@ -1,1 +1,12 @@
-# Final-Project
+# Final-Project: 
+
+## Babson Notes Cloud User Instruction 
+### Before running...
+To successfully run the code successfully, one should install the following libraries and extension in their command prompt:
+1) flask
+2) wt-forms
+3) flask-sqlalchemy
+4) flask-bcrypt
+5) flask-login
+6) pillow
+7) flask-mail
